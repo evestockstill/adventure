@@ -13,7 +13,6 @@ global.localStorage = window.localStorage;
 global.sessionStorage = window.sessionStorage;
 global.URLSearchParams = window.URLSearchParams;
 global.URL = window.URL;
-
 require = require('esm')(module);
 module.exports = require('./tests.js');
 

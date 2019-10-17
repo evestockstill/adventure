@@ -1,4 +1,4 @@
-import findById from 'common/find-by-id.js';
+import findById from '../data/find-by-id.js';
 const test = QUnit.test;
 QUnit.module('find by id');
 const items = [

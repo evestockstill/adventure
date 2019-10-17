@@ -1,4 +1,4 @@
-import { makeAlly } from '../home/makeAlly.js';
+import { makeAlly } from '../home/make-ally.js';
 const test = QUnit.test;
 QUnit.module('make ally character');
 test('create ally object from form data', (assert) => {

@@ -1,5 +1,5 @@
-function gameOver(user) {
-    return user.wp <= 0;
+function gameOver(ally) {
+    return ally.wp <= 0;
 }
 export default gameOver;
 

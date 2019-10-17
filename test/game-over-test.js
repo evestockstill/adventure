@@ -1,4 +1,4 @@
-import gameOver from 'common/game-over.js';
+import gameOver from '../data/game-over.js';
 const test = QUnit.test;
 QUnit.module('game is over');
 test('true', function(assert) {
