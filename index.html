@@ -13,23 +13,25 @@
     <form id="alli-sign-in">
     <p class="text-prompt">
         <label for="name">Your Ally Animal Name:</label>
-        <input id="name" name="name" required>
+        <input type="text" name="name" id="ally-name" required>
     </p>
     <fieldset>
       <legend>Choose your ally adventure</legend>
         <p id="avatars">
+            <div class="container">
             <label>
                 <input type="radio" name="adventure" required value="">
-                <img src="" alt="">
+                <img src="./assets.avatars/fox2.png" class="avatar" alt="">
             </label>
             <label>
                 <input type="radio" name="adventure" required value="">
-                <img src="" alt="">
+                <img src="./assets.avatars/racoon2.png" class="avatar" alt="">
             </label>
             <label>
                 <input type="radio" name="adventure" required value="">
-                <img src="" alt="">
-            </label>  
+                <img src="./assets.avatars/skunk.png" class="avatar" alt="">
+            </label> 
+            </div>
         </p>
     </fieldset>
     <script type="module" src="app.js"></script>

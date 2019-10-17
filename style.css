@@ -1,0 +1,38 @@
+* {
+   text-align: center;
+   font-size: 1.2rem;
+   color: white;
+   text-transform: capitalize;
+   
+}
+html {
+   background: black;
+}
+
+.container {
+    display: flex;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+   padding: 0 20px;
+   background: black;
+   /* background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
+}
+.avatar {
+   opacity: .3;
+   border-radius: 100%;
+   /* box-shadow: 3px 3px 3px 3px hsla(360, 100%, 100%, 0.71); */
+   background: transparent;
+}
+input:checked + .avatar {
+     transition: all 3s ease-in-out;
+   transform: perspective(400px) scaleZ(1.25) rotateX(720deg); 
+   opacity: 1;
+    box-shadow: 3px 3px 3px 3px hsla(136, 28%, 100%, 0.88);
+}
+input[type=radio] {
+    display: none;
+}
+input[type=text] {
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet)
+}
