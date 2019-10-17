@@ -2,13 +2,11 @@
    text-align: center;
    font-size: 1.2rem;
    color: white;
-   text-transform: capitalize;
-   
+   text-transform: capitalize; 
 }
 html {
    background: black;
 }
-
 .container {
     display: flex;
    justify-content: space-between;
@@ -16,12 +14,10 @@ html {
    align-items: center;
    padding: 0 20px;
    background: black;
-   /* background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet); */
 }
 .avatar {
    opacity: .3;
    border-radius: 100%;
-   /* box-shadow: 3px 3px 3px 3px hsla(360, 100%, 100%, 0.71); */
    background: transparent;
 }
 input:checked + .avatar {
@@ -34,5 +30,9 @@ input[type=radio] {
     display: none;
 }
 input[type=text] {
-   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet)
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+button {
+   margin: 50px;
+   background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
 }

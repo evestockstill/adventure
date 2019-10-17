@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./home/home.css">
     <title>Document</title>
 </head>
 
 <body>
-    <form id="alli-sign-in">
+    <form id="ally-sign-in">
     <p class="text-prompt">
         <label for="name">Your Ally Animal Name:</label>
         <input type="text" name="name" id="ally-name" required>
@@ -20,21 +20,22 @@
         <p id="avatars">
             <div class="container">
             <label>
-                <input type="radio" name="adventure" required value="">
-                <img src="./assets.avatars/fox2.png" class="avatar" alt="">
+                <input type="radio" name="animal" required value="fox">
+                <img src="./assets/avatars/fox2.png" class="avatar" alt="">
             </label>
             <label>
-                <input type="radio" name="adventure" required value="">
-                <img src="./assets.avatars/racoon2.png" class="avatar" alt="">
+                <input type="radio" name="animal" required value="racoon">
+                <img src="./assets/avatars/racoon2.png" class="avatar" alt="">
             </label>
             <label>
-                <input type="radio" name="adventure" required value="">
-                <img src="./assets.avatars/skunk.png" class="avatar" alt="">
+                <input type="radio" name="animal" required value="skunk">
+                <img src="./assets/avatars/skunk.png" class="avatar" alt="">
             </label> 
-            </div>
-        </p>
-    </fieldset>
-    <script type="module" src="app.js"></script>
-</body>
+        </div>
+    </p>
+</fieldset>
+<button>Start Your adventure</button>
 </form>
+    <script type="module" src="./home/home.js"></script>
+</body>
 </html>
