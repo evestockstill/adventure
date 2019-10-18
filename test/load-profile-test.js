@@ -10,10 +10,11 @@ test('create ally object from form data', (assert) => {
         name: null,
         wp: 35,
         sc: 20,
+        gold: false,
+        silver: false,
+        bronze: false,
         completed: {}
     };
-    // act
     const ally = makeAlly(formData);
-    // assert
     assert.deepEqual(ally, expected);
 });

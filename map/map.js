@@ -1,18 +1,18 @@
 import { getAlly } from '../data/saveAlly.js';
-import  adventure  from '../data/meta-data.js';
+import { adventureArray } from '../data/meta-data.js';
 import loadProfile from '../data/load-profile.js';
-import createAdventurLink from './ create-adventure-link.js';
+import createAdventureLink from './ create-adventure-link.js';
 import createCompletedAdventure from './create-completed-adventure.js';
 import hasCompletedAllAdventures from './create-completed-adventure.js';
-import hasCompletedAllAdventure from './completed-all-adventures.js';
+// import completedAllAdventure from './completed-all-adventures.js';
 import gameOver from '../data/game-over.js';
 loadProfile();
 const ally = getAlly();
-if (gameOver(ally) || hasCompletedAllAdventures(adventure, ally)) {
+if (gameOver(ally) || hasCompletedAllAdventures(adventureArray, ally)) {
     window.location = '../results';
 }
 const nav = document.getElementById('adventures');
-for (let i = 0; i < adventure.length; i++) {
+for (let i = 0; i < adventureArray.length; i++) {
     const adventure = adventure[i];
     let adventureDisplay = null;
     if (ally.completed[adventure.id]) {
