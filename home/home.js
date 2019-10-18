@@ -8,5 +8,5 @@ allySignIn.addEventListener('submit', function(event) {
     const formData = new FormData(allySignIn);
     const ally = makeAlly(formData);
     saveAlly(ally);
-    window.location = '../map/index.html';
+    window.location = '/map/index.html';
 });

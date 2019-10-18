@@ -3,7 +3,7 @@ import { adventureArray } from '../data/meta-data.js';
 import loadProfile from '../data/load-profile.js';
 import createAdventureLink from './ create-adventure-link.js';
 import createCompletedAdventure from './create-completed-adventure.js';
-import hasCompletedAllAdventures from './create-completed-adventure.js';
+import hasCompletedAllAdventures from './completed-all-adventures.js';
 // import completedAllAdventure from './completed-all-adventures.js';
 import gameOver from '../data/game-over.js';
 loadProfile();
