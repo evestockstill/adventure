@@ -7,7 +7,7 @@ const misogyny = {
         top: '89%',
         left: '44%'
     },
-    image: '../asset/advatar/misogyny.png',
+    image: '../asset/icons/misogyny.png',
     audio: '.wav',
     action: '.wav',
     description: `
@@ -43,7 +43,7 @@ const gender = {
         top: '31%',
         left: '5%'
     },
-    image: '../asset/advatar/gender.png',
+    image: '../asset/icons/gender.jpg',
     audio: '.wav',
     action: '.wav',
     description: `
@@ -76,7 +76,7 @@ const racism = {
         top: '5%',
         left: '20%'
     },
-    image: '../asset/advatar/racism.png',
+    image: '../assets/icons/racism.png',
     audio: '.wav',
     action: '.wav',
     description: `
@@ -103,4 +103,4 @@ const racism = {
     }]
 };
 
-export const adventureArray = [misogyny, gender, racism];
+export const adventures = [misogyny, gender, racism];

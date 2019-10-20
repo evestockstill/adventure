@@ -1,8 +1,8 @@
-function findById(array, id) {
-    for (let index = 0; index < array.length; index++) {
-        const item = array[index];
-        if (item.id === id) {
-            return item;
+function findById(adventures, id) {
+    for (let index = 0; index < adventures.length; index++) {
+        const adventure = adventures[index];
+        if (adventure.id === id) {
+            return adventure;
         }
     }
     return null;

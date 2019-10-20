@@ -1,6 +1,5 @@
 import { saveAlly } from '../data/saveAlly.js';
 import { makeAlly } from './make-ally.js';
-const submitBtn = document.getElementById('submit');
 const allySignIn = document.getElementById('ally-sign-in');
 
 allySignIn.addEventListener('submit', function(event) {

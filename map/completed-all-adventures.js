@@ -1,6 +1,6 @@
-function hasCompletedAllAdventure(adventure, ally) {
-    for (let i = 0; i < adventure.length; i++) {
-        const adventure = adventure[i];
+function hasCompletedAllAdventure(adventures, ally) {
+    for (let i = 0; i < adventures.length; i++) {
+        const adventure = adventures[i];
         if (!ally.completed[adventure.id]) {
             return false;
         }
