@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    background: cadetblue;
+    margin: 0 10px;
+}
+img {
+    height: 200px;
+}
+#description {
+    padding: 0 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    height: 100px;
+}
+.story {
+    justify-content: center;
+    align-items: top;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+button {
+    outline: none;
+    border-radius: 3px;
+    color: white;
+    background: black;
+    padding: 5px;
+}

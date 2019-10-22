@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    background: cadetblue;
+}
+img {
+    height: 200px;
+}
+#description {
+    padding: 0 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    height: 100px;
+}
+.story {
+    justify-content: center;
+    align-items: top;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+button {
+    outline: none;
+    border-radius: 3px;
+    margin-left: 20px;
+    color: white;
+    background: black;
+    padding: 5px;
+}
+legend {
+    text-align: center;
+}
+radio-tag {
+    text-align: center;
+}
+#adventures {
+    text-align: center;
+    padding: 20px;
+    margin: 0 20px;
+}
