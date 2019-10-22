@@ -4,7 +4,7 @@ function createChoice(choice) {
 
     const radio = document.createElement('input');
     radio.type = 'radio';
-    RadioNodeList.name = 'choice';
+    radio.name = 'choice';
     radio.required = true;
     radio.value = choice.id;
     label.appendChild(radio);

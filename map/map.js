@@ -4,12 +4,11 @@ import loadProfile from '../data/load-profile.js';
 import createAdventureLink from './ create-adventure-link.js';
 import createCompletedAdventure from './create-completed-adventure.js';
 import hasCompletedAllAdventures from './completed-all-adventures.js';
-// import completedAllAdventure from './completed-all-adventures.js';
 import gameOver from '../data/game-over.js';
 loadProfile();
 const ally = getAlly();
 if (gameOver(ally) || hasCompletedAllAdventures(adventures, ally)) {
-    window.location = '../results.html';
+    window.location = './results';
 }
 const nav = document.getElementById('adventures');
 for (let i = 0; i < adventures.length; i++) {

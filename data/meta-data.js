@@ -7,7 +7,7 @@ const misogyny = {
         top: '89%',
         left: '44%'
     },
-    image: '../asset/icons/misogyny.png',
+    image: '../assets/icons/misogyny.png',
     audio: '.wav',
     action: '.wav',
     description: `
@@ -30,7 +30,7 @@ const misogyny = {
         id: 'interject',
         description: 'Stand your ground politely',
         result: `
-            First you listen, and then interject into the conversation with your expert opinion, and possibly your crredentials. 
+            First you listen, and then interject into the conversation with your expert opinion, and possibly your credentials. 
         `,
         scp: -10,
         wp: 50
@@ -43,11 +43,11 @@ const gender = {
         top: '31%',
         left: '5%'
     },
-    image: '../asset/icons/gender.jpg',
+    image: '../assets/icons/gender.jpg',
     audio: '.wav',
     action: '.wav',
     description: `
-        You are working on a project, and while speaking to your gender nonconforming co-worker you use the wron pronoun. What do you do?
+        You are working on a project, and while speaking to your gender nonconforming co-worker you use the wrong pronoun. What do you do?
     `,
     choices: [{
         id: 'correct',

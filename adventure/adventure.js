@@ -1,8 +1,8 @@
-import loadProfile from '../common/load-profile.js';
-import { getAlly, saveAlly } from '../data/save-ally.js';
+import loadProfile from '../data/load-profile.js';
+import { getAlly, saveAlly } from '../data/saveAlly.js';
 import { adventures } from '../data/meta-data.js';
-import createChoice from './create-choice.js';
-import findById from '../common/find-by-id.js';
+import createChoice from '../adventure/create-choice.js';
+import findById from '../data/find-by-id.js';
 import scoreAdventure from './score-adventure.js';
 
 loadProfile();
@@ -14,7 +14,7 @@ const adventureId = searchParams.get('id');
 const adventure = findById(adventures, adventureId);
 
 if (!adventure) {
-    window.location = '../map/index.html';
+    window.location = '../results';
 }
 
 const title = document.getElementById('title');
@@ -26,7 +26,7 @@ const result = document.getElementById('result');
 const resultDescription = document.getElementById('result-description');
 
 title.textContent = adventure.title;
-image.src = '../assets/icons/' + adventure.image;
+image.src = adventure.image;
 description.textContent = adventure.description;
 
 for (let index = 0; index < adventure.choices.length; index++) {
